@@ -12,6 +12,8 @@ import { ObrasComponent } from './pages/obras/obras.component';
 import { AutoraComponent } from './pages/autora/autora.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { NovedadesComponent } from './pages/novedades/novedades.component';
+import { BlogComponent } from './pages/blog/blog.component';
+import { InicioComponent } from './pages/inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { NovedadesComponent } from './pages/novedades/novedades.component';
     ObrasComponent,
     AutoraComponent,
     ContactoComponent,
-    NovedadesComponent
+    NovedadesComponent,
+    BlogComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,
