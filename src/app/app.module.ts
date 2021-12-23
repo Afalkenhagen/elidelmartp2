@@ -8,6 +8,10 @@ import { LogoComponent } from './components/logo/logo.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { ArticleComponent } from './components/article/article.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ObrasComponent } from './pages/obras/obras.component';
+import { AutoraComponent } from './pages/autora/autora.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
+import { NovedadesComponent } from './pages/novedades/novedades.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { FooterComponent } from './components/footer/footer.component';
     LogoComponent,
     CarouselComponent,
     ArticleComponent,
-    FooterComponent
+    FooterComponent,
+    ObrasComponent,
+    AutoraComponent,
+    ContactoComponent,
+    NovedadesComponent
   ],
   imports: [
     BrowserModule,
