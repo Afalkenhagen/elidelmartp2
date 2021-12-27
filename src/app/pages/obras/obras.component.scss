@@ -1,23 +1,25 @@
-.obras{
-    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-    font-weight: bold;
-    font-size: 40px;
-}
-.poesia,
-.aforismos {
-    font-size: 22px;
-    margin-top: 10px;
-}
-
 /*
     -------------------------------------
                   OBRAS
     -------------------------------------
 */
+
+.obras{
+    font: normal 60px "Cookie", cursive ;
+    text-align: center;
+    font-weight: bold;
+    color: violet;
+}
+.poesia,
+.aforismos {
+    font-size: 30px;
+    margin-top: 10px;
+    color: gray;
+}
+
 .libros,
 .libros-aforismos {
-    background-color: white;
+    background-color: var(--white);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
@@ -35,4 +37,12 @@
 .libros-imagen {
     margin-right: 20px;
     max-width: 40%;
+}
+
+@media (max-width: 400px){
+    .libros,
+    .libros-aforismos{
+        grid-template-columns: 1fr;
+    }
+    
 }
