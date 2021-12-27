@@ -5,16 +5,10 @@
 */
 section{
     height: 510px;
-    /*
-    background: teal;
-    border: 1px solid black;
-    */
 }
 
 .section{
     display: flex;
-    /*display: grid;
-    grid-template-columns: repeat(4, 1fr);*/
     gap: 10px;
     justify-content: space-between;
     margin: 5px 15px;

@@ -2,7 +2,7 @@
 
 
 
-/* The footer is fixed to the bottom of the page */
+/* Footer */
 
 footer{
 	position: fixed;
@@ -11,7 +11,10 @@ footer{
 
 @media (max-height:800px){
 	footer { position: static; }
-	header { padding-top:40px; }
+	header { 
+		//margin-top: 100px;
+		padding-top:40px; 
+	}
 }
 
 
@@ -44,7 +47,7 @@ footer{
 	margin: 0;
 }
 
-/* The company logo */
+/* logo */
 
 .footer-distributed .footer-left img{
 	width: 30%;
@@ -162,10 +165,6 @@ footer{
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
-
-/* Here is the code for Responsive Footer */
-/* You can remove below code if you don't want Footer to be responsive */
-
 
 @media (max-width: 880px) {
 
