@@ -54,7 +54,7 @@ footer{
 }
 
 .footer-distributed em span{
-	color:  violet;
+	color:  var(--eli);
 }
 
 /* Footer links */
@@ -118,7 +118,7 @@ footer{
 }
 
 .footer-distributed .footer-center p a{
-	color:  violet;
+	color:  var(--eli);
 	text-decoration: none;;
 }
 
@@ -131,7 +131,7 @@ footer{
 
 .footer-distributed .footer-company-about{
 	line-height: 20px;
-	color:  #92999f;
+	color:  var(--grisTopo);
 	font-size: 13px;
 	font-weight: normal;
 	margin: 0;
@@ -154,7 +154,7 @@ footer{
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #33383b;
+	//background-color:  #33383b;
 	border-radius: 2px;
 
 	font-size: 20px;
@@ -164,6 +164,17 @@ footer{
 
 	margin-right: 3px;
 	margin-bottom: 5px;
+}
+
+.foot-icon{
+	height: 33px;
+}
+.foot-icon:hover{
+	background-color: var(--elihover);
+	cursor: pointer;
+	transform: scale(1.1);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+    transition: all 0.5s ease-in-out;
 }
 
 @media (max-width: 880px) {
