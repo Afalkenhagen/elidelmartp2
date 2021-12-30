@@ -27,13 +27,13 @@ body {
     line-height: 0.7;
     letter-spacing: -0.063em;
     font-weight: 800;
-    font-style: normal;
-
+    //font-style: normal;
+	font-size: calc(5em + 5vw);
 	width: 100%;
 	color: transparent;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 200px;
+	//font-size: 200px;
 	//font-weight: bold;
 	background-image: url("/assets/images/blog1.jpg");
 	background-size: cover;
@@ -41,4 +41,10 @@ body {
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 730px){
+    .texto{
+		font-size: 50px;
+	}
 }
