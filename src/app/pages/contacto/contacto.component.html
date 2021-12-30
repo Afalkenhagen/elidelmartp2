@@ -1,66 +1,18 @@
-
-<!-- <form name="contact" netlify>
-  <p>
-    <label>Name <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form> -->
-
 <article role="main">
-<div class="contact_form">
-  <div class="formulario">      
-    <h2 class="h2form">Formulario de contacto</h2>
-      <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
-        <form action="submeter-formulario.php" method="post">       
-              <p>
-                <label for="nombre" class="colocar_nombre">Nombre
-                  <span class="obligatorio">*</span>
-                </label>
-                  <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre" class="input_form">
-              </p>
-            
-              <p>
-                <label for="email" class="colocar_email">Email
-                  <span class="obligatorio">*</span>
-                </label>
-                  <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email" class="input_form" >
-              </p>
-          
-              <p>
-                <label for="telefone" class="colocar_telefono">Teléfono
-                </label>
-                  <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono" class="input_form">
-              </p>    
-            
-              <p>
-                <label for="website" class="colocar_website">Sitio web
-                </label>
-                  <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web" class="input_form">
-              </p>    
-            
-              <p>
-                <label for="asunto" class="colocar_asunto">Asunto
-                  <span class="obligatorio">*</span>
-                </label>
-                  <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto" class="input_form">
-              </p>    
-            
-              <p>
-                <label for="mensaje" class="colocar_mensaje">Mensaje
-                  <span class="obligatorio">*</span>
-                </label>                     
-                                  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                              </p>                    
-              <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-              <p class="aviso">
-                <span class="obligatorio"> * </span>los campos son obligatorios.
-              </p>          
-        </form>
-  </div>  
-</div>
+  <div class="contact">
+    <h2>Queremos saber de ti!</h2>
+    <div class="form-box">
+      <form name="contact-form" class="contact-form" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact-form" />
+        <label>Name: </label>
+        <input type="text" name="name" class="input" />
+        <label>Email:</label>
+        <input type="email" name="email" class="input" required>
+        <label>Message:</label>
+        <textarea name="message" class="textarea" placeholder="Que hay?">
+        </textarea>
+        <button type="submit" ?>submit</button>
+      </form>
+    </div>
+  </div>
 </article>
