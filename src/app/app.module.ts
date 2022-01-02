@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from "@angular/common/http"
 import { SwiperModule } from 'swiper/angular';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -34,6 +35,7 @@ import { InicioComponent } from './pages/inicio/inicio.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     SwiperModule
   ],
   providers: [],

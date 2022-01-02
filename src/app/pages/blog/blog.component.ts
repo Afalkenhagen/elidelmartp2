@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { subscribeOn } from 'rxjs';
+import { CatNinjaService } from "../../cat-ninja.service";
 
 @Component({
   selector: 'app-blog',
@@ -7,9 +9,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlogComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private catNinjaService: CatNinjaService
+  ) { }
+
+  data: any;
+    
+  mostrarFAct (){
+      this.catNinjaService.getKittens().subscribe(data=>{
+        console.log(data);
+        this.data=data;
+      });
+    }
 
   ngOnInit(): void {
+    this.mostrarFAct();
   }
 
 }
