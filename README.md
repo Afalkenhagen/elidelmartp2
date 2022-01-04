@@ -29,3 +29,19 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Netlify Deploy
 
 https://elidelmartp2.netlify.app/
+
+## Listado de pautas opcionales seleccionadas
+
+1. Animaciones en CSS
+2. Etiquetas semánticas de HTML
+3. Accesibilidad testeado con Axe devtool.
+4. Llamada a una API externa (catninja)
+5. Usa Sass
+6. Usa Linter
+7. Muy responsive
+8. Usa manejo de paquetes NPM
+9. Cosas raras de CSS (imagen dentro de texto)
+10. Sitio subido a Netlify
+11. Sitio en Angular
+12. Otras ideas: Formulario de contacto con Netlify
+
